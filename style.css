@@ -22,7 +22,7 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-size: medium;
+
 }
 #navbar a{
     color:black;
@@ -44,17 +44,48 @@ button:hover{
 }
 /*main page styling*/
 #main-page{
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     display: flex;
     align-items: center;
+    padding: 100px;
 }
 #main-page .column1{
     width: 50%;
+    line-height: 40px;
 }
 #main-page img{
     width: 100%;
 }
+/*experience*/
+#Experiences{
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    line-height: 40px;
+}
+/*skills*/
+#skills {
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    line-height: 40px;
+}
+/*passion*/
+#passion {
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    line-height: 40px;
+}
+/*collaboration*/
+#collaborate{
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    line-height: 40px;
+}
+
 /*footer styling*/
 footer{
     padding: 5%;
