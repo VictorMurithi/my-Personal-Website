@@ -10,18 +10,17 @@ body{
 }
 a{
     text-decoration: none;
-
+}
+#logo{
+    font-size: 32px;
 }
 /*navigation styling*/
 #navbar{
-    position: fixed;
-    width: 80%;
-    margin: 4px 2%;
-    background-color:#E0F2F1;
+    background-color:teal;
     display:flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 
 }
 #navbar a{
@@ -55,7 +54,8 @@ button:hover{
     line-height: 40px;
 }
 #main-page img{
-    width: 100%;
+    width: 50%;
+    height: auto;
 }
 /*experience*/
 #Experiences{
@@ -88,7 +88,8 @@ button:hover{
 
 /*footer styling*/
 footer{
-    padding: 5%;
+    background-color: teal;
+    padding:10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
