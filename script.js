@@ -1,5 +1,11 @@
-const button = document.getElementById("menu");
-button.addEventListener("click", function(){
-    console.log("button clicked!");
+const image = document.querySelector("#main-page .column2");
+image.addEventListener("mouseover",function(){
+    image.style.transform="scale(1.1)";
+    image.style.transition="transform 0.3s ease";
 }
-)
+);
+image.addEventListener("mouseout",function(){
+    image.style.transform="scale(1)";
+    image.style.transition="transform 0.3s ease";
+}
+);
