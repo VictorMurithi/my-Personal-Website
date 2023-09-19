@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "";
-document.querySelector("body").appendChild(h2);
+const button = document.getElementById("menu");
+button.addEventListener("click", function(){
+    console.log("button clicked!");
+}
+)
